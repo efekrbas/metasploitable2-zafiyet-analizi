@@ -1,4 +1,4 @@
-# Metasploitable2 Çalışmam
+# Metasploitable2 Zafiyet Analizi
 
 İlk olarak netdiscover kullanarak ağdaki cihazları keşfettim.
 <img width="945" height="244" alt="image" src="https://github.com/user-attachments/assets/3d857e55-3cef-43de-9d46-b12950031c73" />
