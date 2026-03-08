@@ -18,13 +18,6 @@ Samba servisinde kullanabileceğim exploiti bulmak için search parametresini ku
 Sonrasında ise msfconsole aracını kullanarak exploit/multi/samba/usermap_script exploitini "use" parametresi ile seçtim, "set RHOSTS" komutu ile ilk adımda bulduğum IP Adresini hedef olarak seçtim ve "exploit" komutunu yazıp exploti çalıştırdım. Çalıştırdığım exploitle bir shell elde ettim, elde ettiğim shellde "whoami" komutunu kullandığımda her hangi bir şifre gerekmeden root (en yetkili kullanıcı) olduğumu farkettim.
 <img width="945" height="272" alt="image" src="https://github.com/user-attachments/assets/2d1dbf73-2e0e-4589-8cc6-608d1f7831f9" />
 
- 
-
-Ardından backdoor oluşturmak için unix/ftp/vsftpd_234_backdoor exploitini kullandım
-<img width="945" height="262" alt="image" src="https://github.com/user-attachments/assets/c13e4653-6323-4fe5-b889-8f6e59eefa26" />
-
- 
-
 Hedef sistem üzerinde çalışan VNC (Virtual Network Computing) servisi, uzaktan masaüstü yönetimi sağlamak amacıyla yapılandırılmıştır. Ancak, yapılan güvenlik incelemesinde bu servisin kimlik doğrulama mekanizmasının zayıf olduğu veya varsayılan düşük güvenlikli bir parola (password) kullandığı tespit edilmiştir.
 <img width="939" height="383" alt="image" src="https://github.com/user-attachments/assets/8f05af27-181e-4ed3-877f-529d4ad28482" />
 
